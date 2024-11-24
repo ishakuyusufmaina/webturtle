@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython-turtle"></script>
+</head>
+<body onload="brython()">
+    <script type="text/python">
+        from turtle import *
+        import time
+
+        bgcolor("black")
+        color("blue")
+        speed(0)
+
+        for i in range(36):
+            circle(100)
+            left(10)
+
+        time.sleep(5)
+    </script>
+</body>
+</html>
